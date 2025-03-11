@@ -141,7 +141,7 @@ public class Generation {
 
 		case ("Truncation"):
 			Collections.sort(this.chromosomeList);
-			for (int i = 0; i < length / 2; i++) {
+			for (int i = 0; i < (length / 2); i++) {
 				this.chromosomeList.set(this.size - (i + 1), new Chromosome(this.chromosomeList.get(i).getGenome()));
 			}
 //			System.out.print("Fitnesses after selection :");
