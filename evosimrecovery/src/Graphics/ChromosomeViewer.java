@@ -49,8 +49,8 @@ public class ChromosomeViewer extends JFrame{
 		this.alpha = new ChromosomeComponent(c.getChromosome());
 
 		controlPanel.add(openPopulationButton);
-		controlPanel.add(load);
-		controlPanel.add(save);
+		// controlPanel.add(load);
+		// controlPanel.add(save);
 		controlPanel.add(mutate);
 		controlPanel.add(mutationChance);
 		

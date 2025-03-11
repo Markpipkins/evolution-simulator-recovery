@@ -92,12 +92,12 @@ public class EvolutionViewer {
 		controlPanel.add(FitnessMenu);
 		controlPanel.add(CrossoverLabel);
 		controlPanel.add(CrossoverCheckBox);
-		controlPanel.add(PopulationSizeLabel);
-		controlPanel.add(PopulationSizeBox);
+		// controlPanel.add(PopulationSizeLabel);
+		// controlPanel.add(PopulationSizeBox);
 		controlPanel.add(NumberofEvolutionsLabel);
 		controlPanel.add(NumberofEvolutionsBox);
-		controlPanel.add(GenomeLengthLabel);
-		controlPanel.add(GenomeLengthBox);
+		// controlPanel.add(GenomeLengthLabel);
+		// controlPanel.add(GenomeLengthBox);
 		controlPanel.add(ElitismRateLabel);
 		controlPanel.add(ElitismRateBox);
 		upperControlPanel.add(StartButton);
